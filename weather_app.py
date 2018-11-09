@@ -1,7 +1,7 @@
 import urllib.request
 
 def weather():
-    url = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&appid=73b6d91bfb9c58c45a26fe1fd2a03b83'
+    url = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&appid=XXXXXXXXXXXXXXXXXXXXXXXXXX'
     data = urllib.request.urlopen(url)
     #print(data.read())
     for x in data.read():

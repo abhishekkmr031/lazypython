@@ -7,7 +7,7 @@ import json
 def weather():
 	pool = urllib3.PoolManager()
 	city = str(input("Enter the city name :  ")).capitalize();
-	url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=73b6d91bfb9c58c45a26fe1fd2a03b83'
+	url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 	#url = "www.google.com"
 	text = pool.request('GET', url)
 	#print(text.data)
